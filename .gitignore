@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment files
+client/.env
+server/.env
+
+# Build files
+dist/
+client/dist/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+
+# Backup folder
+backup_before_claude/
