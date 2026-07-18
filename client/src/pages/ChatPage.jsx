@@ -525,7 +525,13 @@ function ChatPage() {
         )}
 
         {/* ── MESSAGES ───────────────────────────────────────────────────────── */}
-        <div ref={scrollContainerRef} className="flex-1 overflow-y-auto flex flex-col gap-2 px-4 py-3">
+        <div
+  ref={scrollContainerRef}
+  className="flex-1 overflow-y-auto flex flex-col gap-2 px-4 py-3"
+  style={{
+    paddingBottom: "120px",
+  }}
+>
           {messages.map((msg, index) => {
             const isMine    = msg.sender === user._id || msg.sender?._id === user._id;
             const isDeleted = msg.deletedForEveryone;
@@ -737,7 +743,12 @@ function ChatPage() {
         )}
 
         {/* ── INPUT AREA ─────────────────────────────────────────────────────── */}
-        <div className="bg-[#0d0d14] pb-4 pt-2 px-3">
+        <div
+  className="bg-[#0d0d14] pt-2 px-3"
+  style={{
+    paddingBottom: "105px",
+  }}
+>
 
           {/* REPLY PREVIEW BAR */}
           {replyTo && (

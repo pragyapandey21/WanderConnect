@@ -110,11 +110,15 @@ const editProfile = async (req, res) => {
     }
 
     user.username = req.body.username || user.username;
-    user.bio = req.body.bio || user.bio;
-    user.openToChat =
-      req.body.openToChat !== undefined
-        ? req.body.openToChat
-        : user.openToChat;
+user.bio = req.body.bio || user.bio;
+user.location = req.body.location || user.location;
+user.travelStyle = req.body.travelStyle || user.travelStyle;
+user.interests = req.body.interests || user.interests;
+
+user.openToChat =
+  req.body.openToChat !== undefined
+    ? req.body.openToChat
+    : user.openToChat;
 
     const updatedUser = await user.save();
 

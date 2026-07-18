@@ -1,12 +1,14 @@
 const dotenv = require("dotenv");
-const app    = require("./app");
+dotenv.config(); // <-- Move this here
+
+const app = require("./app");
 const connectDB = require("./config/db");
 const Group = require("./models/Group");
 const GroupMessage = require("./models/GroupMessage");
 
 const http = require("http");
 const { Server } = require("socket.io");
-const { setIO }  = require("./socket");
+const { setIO } = require("./socket");
 const { ExpressPeerServer } = require("./peerServer");
 
 dotenv.config();

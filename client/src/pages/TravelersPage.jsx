@@ -36,7 +36,7 @@ const TravelersPage = () => {
         );
         setTravelers(res.data);
         const token = localStorage.getItem("token");
-
+console.log("TOKEN:", token);
 const profileRes = await axios.get(
   "http://localhost:5000/api/auth/profile",
   {

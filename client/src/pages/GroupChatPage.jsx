@@ -272,6 +272,7 @@ useEffect(() => {
       <div style={{
         flex: 1,
         overflowY: "auto",
+        paddingBottom: 120,
         padding: "12px 14px",
         display: "flex",
         flexDirection: "column",
@@ -399,7 +400,7 @@ useEffect(() => {
         display: "flex",
         alignItems: "center",
         gap: 10,
-        padding: "10px 14px 24px",
+        padding: "10px 14px 105px",
         borderTop: "1px solid rgba(255,255,255,0.06)",
         background: "#0B0B14",
       }}>
