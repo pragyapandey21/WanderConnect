@@ -26,7 +26,7 @@ const [showCreateModal, setShowCreateModal] = useState(false);
 const fetchGroups = async () => {
   try {
     const res = await axios.get(
-      `http://localhost:5000/api/groups/${dest}`
+      `https://wanderconnect.onrender.com/api/groups/${dest}`
     );
 
     setGroups(res.data);
@@ -44,7 +44,7 @@ useEffect(() => {
 const joinGroup = async (groupId) => {
   try {
     await axios.put(
-      `http://localhost:5000/api/groups/${groupId}/join`,
+      `https://wanderconnect.onrender.com/api/groups/${groupId}/join`,
       {},
       authHeaders()
     );
@@ -60,7 +60,7 @@ const joinGroup = async (groupId) => {
 const leaveGroup = async (groupId) => {
   try {
     await axios.put(
-      `http://localhost:5000/api/groups/${groupId}/leave`,
+      `https://wanderconnect.onrender.com/api/groups/${groupId}/leave`,
       {},
       authHeaders()
     );
@@ -74,7 +74,7 @@ const leaveGroup = async (groupId) => {
 const deleteGroup = async (groupId) => {
   try {
     await axios.delete(
-      `http://localhost:5000/api/groups/${groupId}`,
+      `https://wanderconnect.onrender.com/api/groups/${groupId}`,
       authHeaders()
     );
 

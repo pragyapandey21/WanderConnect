@@ -32,7 +32,7 @@ const CreatePost = () => {
     formData.append("tags", tags);
 
     const res = await axios.post(
-      "http://localhost:5000/api/posts",
+      "https://wanderconnect.onrender.com/api/posts",
       formData,
       {
         headers: {

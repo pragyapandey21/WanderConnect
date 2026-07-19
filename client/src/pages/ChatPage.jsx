@@ -4,7 +4,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 // ── Constants ────────────────────────────────────────────────────────────────
-const API = "http://localhost:5000/api/messages";
+const API = "https://wanderconnect.onrender.com/api/messages";
 const REACTIONS = ["❤️", "😂", "😍", "👍", "😮", "😢"];
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -99,7 +99,7 @@ function ChatPage() {
   const fetchChatUser = useCallback(async () => {
   try {
     const res = await axios.get(
-      `http://localhost:5000/api/users/${id}`,
+      `https://wanderconnect.onrender.com/api/users/${id}`,
       authHeaders()
     );
 

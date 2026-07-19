@@ -37,7 +37,7 @@ export default function CreateGroupModal({
   const createGroup = async () => {
     try {
       await axios.post(
-        "http://localhost:5000/api/groups",
+        "https://wanderconnect.onrender.com/api/groups",
         {
           ...newGroup,
           destination,

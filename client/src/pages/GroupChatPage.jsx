@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import socket from "../socket";
 
-const API = "http://localhost:5000/api/group-messages";
+const API = "https://wanderconnect.onrender.com/api/group-messages";
 
 // ── Static mock data (design only) ──────────────────────────────────────────
 const MOCK_MESSAGES = [
@@ -84,7 +84,7 @@ function GroupChatPage() {
   const fetchGroup = async () => {
   try {
     const res = await axios.get(
-      `http://localhost:5000/api/groups/group/${groupId}`,
+      `https://wanderconnect.onrender.com/api/groups/group/${groupId}`,
       authHeaders()
     );
 

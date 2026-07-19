@@ -40,7 +40,7 @@ function PostsPage() {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/posts");
+        const res = await axios.get("https://wanderconnect.onrender.com/api/posts");
 
         setPosts(res.data);
         console.log(res.data[0]);
@@ -57,7 +57,7 @@ function PostsPage() {
       const token = localStorage.getItem("token");
 
       await axios.put(
-        `http://localhost:5000/api/posts/${postId}/like`,
+        `https://wanderconnect.onrender.com/api/posts/${postId}/like`,
         {},
         {
           headers: {
@@ -86,7 +86,7 @@ function PostsPage() {
       const token = localStorage.getItem("token");
 
       const res = await axios.post(
-        `http://localhost:5000/api/posts/${postId}/comment`,
+        `https://wanderconnect.onrender.com/api/posts/${postId}/comment`,
         {
           text: commentText,
         },
