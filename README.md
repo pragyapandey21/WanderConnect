@@ -64,13 +64,13 @@ WanderConnect is a full-stack MERN travel companion platform that helps traveler
 ---
 
 ## 📸 Screenshots
-<img width="720" height="1456" alt="image" src="https://github.com/user-attachments/assets/f84d8513-012a-4afc-80f8-e66670851395" />
-<img width="720" height="1328" alt="image" src="https://github.com/user-attachments/assets/2e4741d1-72b1-4b90-83b7-1bdd53088a9c" />
-<img width="716" height="1278" alt="image" src="https://github.com/user-attachments/assets/4776b9b1-2df5-43e6-8c01-cc23f883d72d" />
-<img width="720" height="1456" alt="image" src="https://github.com/user-attachments/assets/cad9d6c8-d167-46d7-9323-b1801685965b" />
-<img width="720" height="1340" alt="image" src="https://github.com/user-attachments/assets/e80d3eff-db64-4b6b-b4af-a7edec73a792" />
-<img width="720" height="1458" alt="image" src="https://github.com/user-attachments/assets/355102fe-7a19-4804-a5f6-5d38fe10941e" />
-<img width="720" height="1336" alt="image" src="https://github.com/user-attachments/assets/036e7807-e595-4e26-8a50-03a47fc57d8f" />
+<img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/4cbfc21c-86ad-4c87-abc7-29f9d948b227" />
+<img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/50add631-5cb4-4267-b0e6-7bb3db06b876" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/a44ed4be-1aa3-4695-94e9-2d60557f1da9" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/a494422a-73fc-449c-86e6-a63b151ec526" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/fa9093dc-0083-45a5-9b33-3de591d95f64" />
+<img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/c2f1ec2f-89f5-4dfc-96c1-085f0df41990" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/af991144-b7e8-4d38-8139-9d4e847a71fc" />
 
 
 ### 🔑 Login & Authentication
