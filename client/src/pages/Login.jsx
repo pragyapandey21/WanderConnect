@@ -27,7 +27,7 @@ const handleLogin = async () => {
 
     alert("Login Successful!");
 
-    navigate("/");
+    navigate("/home");
 
   } catch (error) {
 

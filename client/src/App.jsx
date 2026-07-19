@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useNavigate, Navigate } from "react-router-dom";
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -21,8 +21,8 @@ function AppContent() {
   const handleTabChange = (tabId) => {
     switch (tabId) {
       case "explore":
-        navigate("/");
-        break;
+  navigate("/home");
+  break;
       case "companions":
         navigate("/travelers/goa");
         break;
@@ -43,7 +43,8 @@ function AppContent() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Map />} />
+        <Route path="/" element={<Navigate to="/login" replace />} />
+<Route path="/home" element={<Map />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/profile" element={<Profile />} />

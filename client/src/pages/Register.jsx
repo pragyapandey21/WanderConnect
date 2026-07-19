@@ -28,7 +28,7 @@ const handleRegister = async () => {
 
     alert("Registration Successful!");
 
-    navigate("/");
+    navigate("/home");
 
   } catch (error) {
 
