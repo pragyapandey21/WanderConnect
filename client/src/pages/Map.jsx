@@ -16,7 +16,7 @@ const Map = () => {
   useEffect(() => {
     const fetchAll = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/destinations");
+        const res = await axios.get("https://wanderconnect.onrender.com/api/destinations");
         setAllDestinations(res.data);
       } catch (error) {
         console.log(error);
@@ -37,7 +37,7 @@ const Map = () => {
     const fetchDestination = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:5000/api/destinations/${selectedDestination}`
+          `https://wanderconnect.onrender.com/api/destinations/${selectedDestination}`
         );
         setDestination(res.data);
       } catch (error) {

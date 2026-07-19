@@ -32,13 +32,13 @@ const TravelersPage = () => {
     const fetchTravelers = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:5000/api/users/travelers/${name}`
+          `https://wanderconnect.onrender.com/api/users/travelers/${name}`
         );
         setTravelers(res.data);
         const token = localStorage.getItem("token");
 console.log("TOKEN:", token);
 const profileRes = await axios.get(
-  "http://localhost:5000/api/auth/profile",
+  "https://wanderconnect.onrender.com/api/auth/profile",
   {
     headers: {
       Authorization: `Bearer ${token}`,
@@ -63,7 +63,7 @@ setConnectedUsers(
     if (connectedUsers.includes(userId)) {
       // Unfollow
       await axios.put(
-        `http://localhost:5000/api/users/unfollow/${userId}`,
+        `https://wanderconnect.onrender.com/api/users/unfollow/${userId}`,
         {},
         {
           headers: {
@@ -78,7 +78,7 @@ setConnectedUsers(
     } else {
       // Follow
       await axios.put(
-        `http://localhost:5000/api/users/${userId}/follow`,
+        `https://wanderconnect.onrender.com/api/users/${userId}/follow`,
         {},
         {
           headers: {
