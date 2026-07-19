@@ -64,8 +64,8 @@ WanderConnect is a full-stack MERN travel companion platform that helps traveler
 ---
 
 ## 📸 Screenshots
-<img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/4cbfc21c-86ad-4c87-abc7-29f9d948b227" />
 <img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/50add631-5cb4-4267-b0e6-7bb3db06b876" />
+<img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/4cbfc21c-86ad-4c87-abc7-29f9d948b227" />
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/a44ed4be-1aa3-4695-94e9-2d60557f1da9" />
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/a494422a-73fc-449c-86e6-a63b151ec526" />
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/fa9093dc-0083-45a5-9b33-3de591d95f64" />
