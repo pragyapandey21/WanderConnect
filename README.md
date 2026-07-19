@@ -213,8 +213,8 @@ npm start
 
 **Pragya Pandey**
 
-- 💼 LinkedIn: https://linkedin.com/in/your-linkedin
-- 🐙 GitHub: https://github.com/your-github
+- 💼 LinkedIn: 
+- 🐙 GitHub: https://github.com/pragyapandey21
 
 ---
 
